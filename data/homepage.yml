@@ -1,11 +1,15 @@
 # homepage
 homepage:
   head:
-    title: "Tong Jin | Statistics & Data Science | New York University"
+    title: "Tong Jin | Statistics & Data Science | New York University"  # Title for head
 
-  title: "Hello, I’m Tong."
-  subtitle: "Front-End Developer"
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Tong."  # Title for homepage  
+  subtitle: "I love Statistics and Data Science."
+  description: "I am a graduate student at New York University.
+  You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"

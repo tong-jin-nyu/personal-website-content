@@ -1,7 +1,6 @@
 baseURL = "https://tong-jin-nyu.github.io"
 languageCode = "en-us"
 title = "Tong Jin | New York University | Statistics & Data Science"
-theme = "raditian-free-hugo-theme"
 
 # Plugins
 [params.plugins]
@@ -21,7 +20,6 @@ theme = "raditian-free-hugo-theme"
   URL = "js/sticky-header.js"
   [[params.plugins.js]]
   URL = "js/library/fontfaceobserver.js"
-
 
 # navigation
 [menu]
@@ -60,13 +58,14 @@ theme = "raditian-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "experience", "client-and-work",
+   "testimonial", "contact", "newsletter"]
 
   googleTagManagerID = "GTM-TQKWS3H" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Test"
-    text2 = "HEHE"
+    text1 = "Tong"
+    text2 = "Jin"
 
   [params.footer]
       copyright = "© Raditian. All rights reserved."
